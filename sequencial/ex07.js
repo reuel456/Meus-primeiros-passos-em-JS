@@ -1,0 +1,21 @@
+const prompt = require('prompt-sync')();
+console.log("--- Operações Combinadas (4 Números) ---");
+const n1 = parseInt(prompt("Digite o 1º número inteiro: "));
+const n2 = parseInt(prompt("Digite o 2º número inteiro: "));
+const n3 = parseInt(prompt("Digite o 3º número inteiro: "));
+const n4 = parseInt(prompt("Digite o 4º número inteiro: "));
+console.log("\n--- RESULTADOS DAS ADIÇÕES ---");
+console.log(`${n1} + ${n2} = ${n1 + n2}`);
+console.log(`${n1} + ${n3} = ${n1 + n3}`);
+console.log(`${n1} + ${n4} = ${n1 + n4}`);
+console.log(`${n2} + ${n3} = ${n2 + n3}`);
+console.log(`${n2} + ${n4} = ${n2 + n4}`);
+console.log(`${n3} + ${n4} = ${n3 + n4}`);
+
+console.log("\n--- RESULTADOS DAS MULTIPLICAÇÕES ---");
+console.log(`${n1} x ${n2} = ${n1 * n2}`);
+console.log(`${n1} x ${n3} = ${n1 * n3}`);
+console.log(`${n1} x ${n4} = ${n1 * n4}`);
+console.log(`${n2} x ${n3} = ${n2 * n3}`);
+console.log(`${n2} x ${n4} = ${n2 * n4}`);
+console.log(`${n3} x ${n4} = ${n3 * n4}`);
