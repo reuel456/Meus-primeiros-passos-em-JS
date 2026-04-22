@@ -1,0 +1,11 @@
+const prompt = require('prompt-sync')();
+const valor1 = parseFloat(prompt("Digite o primeiro valor: "));
+const valor2 = parseFloat(prompt("Digite o segundo valor: "));
+const adicao = valor1 + valor2;
+const subtracao = valor1 - valor2;
+const multiplicacao = valor1 * valor2;
+const divisao = valor1 / valor2;
+console.log(`Adição: ${valor1} + ${valor2} = ${adicao};`);
+console.log(`Subtração: ${valor1} - ${valor2} = ${subtracao};`);
+console.log(`Multiplicação: ${valor1} * ${valor2} = ${multiplicacao};`);
+console.log(`Divisão: ${valor1} / ${valor2} = ${divisao}`);
