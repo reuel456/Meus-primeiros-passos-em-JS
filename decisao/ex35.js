@@ -1,0 +1,18 @@
+const prompt = require('prompt-sync')();
+const n1 = parseInt(prompt("Digite o 1º número: "));
+const n2 = parseInt(prompt("Digite o 2º número: "));
+const n3 = parseInt(prompt("Digite o 3º número: "));
+const n4 = parseInt(prompt("Digite o 4º número: "));
+const n5 = parseInt(prompt("Digite o 5º número: "));
+let maior = n1;
+let menor = n1;
+if (n2 > maior) maior = n2;
+if (n2 < menor) menor = n2;
+if (n3 > maior) maior = n3;
+if (n3 < menor) menor = n3;
+if (n4 > maior) maior = n4;
+if (n4 < menor) menor = n4;
+if (n5 > maior) maior = n5;
+if (n5 < menor) menor = n5;
+console.log(`Maior valor: ${maior}`);
+console.log(`Menor valor: ${menor}`);
